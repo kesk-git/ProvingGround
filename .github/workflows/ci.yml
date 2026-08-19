@@ -1,0 +1,18 @@
+# Deliberately minimal: this exists so a pull request carries a readable
+# pass/fail check, not to gate quality. Keep it cheap - it runs on every PR.
+name: ci
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Sanity
+        run: |
+          test -f README.md
+          echo "ok"
