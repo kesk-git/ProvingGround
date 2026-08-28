@@ -24,3 +24,7 @@ machine paths, or anything that would be a problem to read aloud.
 pull request a check that can be read as passing or failing, so the "merge
 only when green" path has something real to read. It is not a quality gate and
 should stay cheap.
+
+## Rehearsal log
+
+- 2026-08-28: worker-runtime rehearsal - Pi harness, Anthropic model, direct-PR loop.
