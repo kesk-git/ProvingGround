@@ -28,3 +28,4 @@ should stay cheap.
 ## Rehearsal log
 
 - 2026-08-28: worker-runtime rehearsal - Pi harness, Anthropic model, direct-PR loop.
+- 2026-08-28: worker-runtime rehearsal - Pi harness, OpenAI model, direct-PR loop.
