@@ -14,10 +14,9 @@ anything, and hold every file — this one included — to that bar.
 
 ## The check
 
-`.github/workflows/ci.yml` is deliberately tiny. It exists only so a pull
-request carries a check that reads as passing or failing, giving the
-merge-when-green path something real to read. It is not a quality gate; keep it
-cheap.
+`.github/workflows/ci.yml` is a deliberately tiny check that exists only so the
+merge-when-green path has something real to read — not a quality gate, so keep
+it cheap. README's "The check" explains why.
 
 ## Maintaining this file
 
